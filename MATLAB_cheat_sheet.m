@@ -512,7 +512,10 @@ for i = 1:2
         if n == 3
             text(axMain4, figPixH*(0 + (i-1)*(sqrt(2)/4-.165) + .165), figPixH*(.84 - (j-1)*.05), 'R2020b', Font2{:}, 'Color','k', 'HorizontalAlignment','right')
         end
-        if n == 15 || n == 16
+        if n == 15
+            text(axMain4, figPixH*(0 + (i-1)*(sqrt(2)/4-.165) + .165), figPixH*(.84 - (j-1)*.05), 'R2023a', Font2{:}, 'Color','k', 'HorizontalAlignment','right')
+        end
+        if n == 16
             text(axMain4, figPixH*(0 + (i-1)*(sqrt(2)/4-.165) + .165), figPixH*(.84 - (j-1)*.05), 'R2023b', Font2{:}, 'Color','k', 'HorizontalAlignment','right')
         end
         n = n + 1;
