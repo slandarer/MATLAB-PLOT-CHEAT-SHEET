@@ -209,8 +209,8 @@ Y = (sin(t) + 1).*1e3;
 warning off
 
 text(axMain1,figPixH*(.075 - .045),figPixH*.38 , 'plot(x,y)', Font4{:}, 'HorizontalAlignment', 'left')
-text(axMain1,figPixH*(.185 - .045),figPixH*.38 , 'semilogx(x,y)', Font4{:}, 'HorizontalAlignment', 'left')
-text(axMain1,figPixH*(.075 - .045),figPixH*.265 , 'semilogy(x,y)', Font4{:}, 'HorizontalAlignment', 'left')
+text(axMain1,figPixH*(.185 - .045),figPixH*.38 , 'semilogy(x,y)', Font4{:}, 'HorizontalAlignment', 'left')
+text(axMain1,figPixH*(.075 - .045),figPixH*.265 , 'semilogx(x,y)', Font4{:}, 'HorizontalAlignment', 'left')
 text(axMain1,figPixH*(.185 - .045),figPixH*.265 , 'loglog(x,y)', Font4{:}, 'HorizontalAlignment', 'left')
 
 axLG11 = axesLOG(figMain, [.001, .295, .1,.075]);
