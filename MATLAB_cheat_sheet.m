@@ -90,7 +90,7 @@ ax24 = axes2D(figMain, [.0045+3/20.2,.725,1/23,.04]);
 ax25 = axes2D(figMain, [.0045+4/20.2,.725,1/23,.04]);
 contour(ax21, data2.*10); text(axMain1, figPixH*((0/20.2+1/40)*sqrt(2).*tR), figPixH*.775, 'contour(z)', Font3{:}, 'HorizontalAlignment', 'center')
 ax21.XLim = [1,15]; ax21.YLim = [1,15];
-contourf(ax22, data2.*10); text(axMain1, figPixH*((1/20.2+1/40)*sqrt(2).*tR), figPixH*.775, 'contour(z)', Font3{:}, 'HorizontalAlignment', 'center')
+contourf(ax22, data2.*10); text(axMain1, figPixH*((1/20.2+1/40)*sqrt(2).*tR), figPixH*.775, 'contourf(z)', Font3{:}, 'HorizontalAlignment', 'center')
 ax22.XLim = [1,15]; ax22.YLim = [1,15];
 image(ax23, data2.*10); text(axMain1, figPixH*((2/20.2+1/40)*sqrt(2).*tR), figPixH*.775, 'image(z)', Font3{:}, 'HorizontalAlignment', 'center')
 ax23.XLim = [.5,15.5]; ax23.YLim = [.5,15.5];
